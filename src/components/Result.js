@@ -83,7 +83,7 @@ export const Result = () => {
         </div>
       );
 
-    case "/":
+    default :
       return (
         <div>
           <h1 className="text-center">
@@ -95,8 +95,7 @@ export const Result = () => {
         </div>
       );
 
-    default:
-      return "ERROR!";
+    
   }
 };
 
